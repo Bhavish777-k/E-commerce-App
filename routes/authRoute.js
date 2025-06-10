@@ -3,9 +3,9 @@ import { registerController,loginContoller,testController, forgotPasswordContoll
 import { isAdmin, requireSignIn } from '../middleware/authMiddleware.js';
 const router = express.Router();
 
-router.post("/register", registerController);
+router.post("/e-commerce-app-sigma-ten.vercel.app/register", registerController);
 //login || post
-router.post("/login",loginContoller);
+router.post("/e-commerce-app-sigma-ten.vercel.app/login",loginContoller);
 // forgot password ||post
 router.post("/forgot-password",forgotPasswordContoller);
 //test routes
